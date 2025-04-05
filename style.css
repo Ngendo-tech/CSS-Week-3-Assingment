@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Class selector for main container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ID selector for header */
+#header {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Class selector for image styling */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Class selector for text paragraph */
+.paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* ID selector for footer */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Adding padding to an image with the class */
+.image-container img {
+    padding: 10px;
+}
